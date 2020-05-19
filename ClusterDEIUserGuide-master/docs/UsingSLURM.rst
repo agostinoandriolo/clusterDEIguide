@@ -10,7 +10,7 @@ world's supercomputers and computer clusters.
 Slurm is used @ CINECA, CERN, RIKEN, LIVERMORE,
 OAK RIDGE, etc.
 
-Installed Slurm version: 19.05.2 (Aug 13, 2019)
+Installed Slurm version: 20.02.1 (Feb 2020)
 
 Slurm Partitions
 ----------------
@@ -22,7 +22,7 @@ partition can be considered as a job queue, each of
 which has some constraint (e.g. number of running
 jobs, job time limit, etc.).
 
-CAPRI has 2 partitions:
+ClusterDEI has 2 partitions:
 
   * **allgroups**: partition to run both serial and parallel
     software. This partition **should not** be used to run
@@ -35,7 +35,7 @@ CAPRI has 2 partitions:
 Which partition should I use?
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-The great majority of CAPRI users should use the
+The great majority of Cluster users should use the
 allgroups partition. Typical serial and parallel software
 that require no interaction with the user should be run
 in this partition.
@@ -52,7 +52,7 @@ Slurm Jobs
 
 .. _slurmjobs:
 
-To run a software on CAPRI, the user the user must
+To run a software on the cluster, the user the user must
 prepare a so-called (Slurm) *job file*. A job file is a text file containing
 some Slurm instructions/options and the call to user software.
 
@@ -105,7 +105,7 @@ Some options can be specified using either the short (prefixed with just one das
 and a letter) or the long (two dashes) form. 
 
 There are four **mandatory** options you must specify on your job to successfully run
-on the CAPRI platform. These are:
+on the cluster platform. These are:
 
  -n, -\\-ntasks <num_tasks>
   Number of tasks to launch. For serial code <num_task> should be set to 1, for
@@ -285,9 +285,9 @@ Check the job efficiency of a completed job issuing::
 
 As an example::
 
- [admin@capri~] seff 54321
+ [admin@runner-01~] seff 54321
  Job ID: 54321
- Cluster: capri
+ Cluster: cluster_DEI
  User/Group: admin/admin
  State: COMPLETED (exit code 0)
  Cores: 1
