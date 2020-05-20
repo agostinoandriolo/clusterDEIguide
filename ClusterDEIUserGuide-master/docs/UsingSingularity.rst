@@ -27,7 +27,7 @@ Singularity workflow
 
 
 You tipically build the singularity file on your PC. The singularity image can 
-then be transferred to CAPRI and run there.
+then be transferred to your homedir or a share and run there.
 
 Building the singularity image
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
