@@ -92,8 +92,8 @@ GPU Job
 
 .. important::
    DO NOT request GPU if you don't use them!
-
-..To specify a GPU you want to use:
+   
+ To specify a GPU you want to use:
 
   #SBATCH --gres=gpu:titan_rtx                Use Nvidia Titan Rtx GPU
   
