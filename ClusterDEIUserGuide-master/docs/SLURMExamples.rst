@@ -82,10 +82,10 @@ GPU Job
   
   srun ./GPUhello
 
-
-.. In DEI cluster there are currently four servers with GPUs:: 
-  * one server (gpu1) with nine Nvidia Titan Rtx
-  * three servers (runner-04/05/06) with one Nvidia Quadro P2000 each
+.. note::
+  In DEI cluster there are currently four servers with GPUs:: 
+    * one server (gpu1) with nine Nvidia Titan Rtx
+    * three servers (runner-04/05/06) with one Nvidia Quadro P2000 each
    
  request more than one GPU **only** if your program is capable of using more than one GPU at a time.
 
