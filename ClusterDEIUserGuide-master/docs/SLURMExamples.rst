@@ -93,10 +93,12 @@ GPU Job
 .. important::
    DO NOT request GPU if you don't use them!
 
-.._To specify the GPU you want use:
+..To specify a GPU you want to use:
 
   #SBATCH --gres=gpu:titan_rtx                Use Nvidia Titan Rtx GPU
+  
   #SBATCH --gres=gpu:titan_rtx:3              Use three Nvidia Titan Rtx GPU
+  
   #SBATCH --gres=gpu:p2000:1                  Use Nvidia Quadro P2000 GPU
 
 
