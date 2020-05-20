@@ -92,11 +92,12 @@ GPU Job
 .. important::
    DO NOT request GPU if you don't use them!
    To specify a GPU you want to use:
-::
-  #SBATCH --gres=gpu                          Use a generic GPU
-  #SBATCH --gres=gpu:titan_rtx                Use Nvidia Titan Rtx GPU
-  #SBATCH --gres=gpu:titan_rtx:3              Use for example three Nvidia Titan Rtx GPU
-  #SBATCH --gres=gpu:p2000:1                  Use Nvidia Quadro P2000 GPU
+   
+   ::
+   #SBATCH --gres=gpu                          Use a generic GPU
+   #SBATCH --gres=gpu:titan_rtx                Use Nvidia Titan Rtx GPU
+   #SBATCH --gres=gpu:titan_rtx:3              Use for example three Nvidia Titan Rtx GPU
+   #SBATCH --gres=gpu:p2000:1                  Use Nvidia Quadro P2000 GPU
 
 
 Singularity Job
