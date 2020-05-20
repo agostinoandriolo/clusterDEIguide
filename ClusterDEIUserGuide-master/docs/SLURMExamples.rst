@@ -91,7 +91,7 @@ GPU Job
    capable of using more than one GPU at a time.
 
 .. important::
-   DO NOT request GPU if you don't use them!
+ DO NOT request GPU if you don't use them!
    
  To specify a GPU you want to use:
 
