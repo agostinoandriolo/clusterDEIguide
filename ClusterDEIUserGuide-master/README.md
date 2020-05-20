@@ -1,2 +1,2 @@
-# CAPRIUserGuide
-The CAPRI computing platform user guide
+# ClusterDEIUserGuide
+The cluster computing platform user guide
