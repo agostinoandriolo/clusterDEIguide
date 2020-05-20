@@ -75,8 +75,8 @@ or, to access the container interactively
    singularity exec container.img
 
 
-Running the singularity image on CAPRI
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Running the singularity image on cluster
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Once copied on the CAPRI platform the singularity image can be executed with a slurm
+Once copied on the cluster platform the singularity image can be executed with a slurm
 job file like the one described in :ref:`Singularity job example <singularityjob>`
