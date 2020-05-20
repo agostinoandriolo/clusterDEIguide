@@ -75,7 +75,7 @@ GPU Job
   #SBATCH -n 1
   #SBATCH -p allgroups
   #SBATCH –mem 640G
-  # requesting 1 GPU; set --gres=gpu:2 to use both GPUs
+  # requesting 1 GPU; set --gres=gpu:2 to use for example two GPUs
   #SBATCH --gres=gpu:1
 
   cd $SLURM_SUBMIT_DIR
@@ -92,12 +92,11 @@ GPU Job
 .. important::
    DO NOT request GPU if you don't use them!
    To specify a GPU you want to use:
-   
    ::
-   #SBATCH --gres=gpu                          Use a generic GPU
-   #SBATCH --gres=gpu:titan_rtx                Use Nvidia Titan Rtx GPU
-   #SBATCH --gres=gpu:titan_rtx:3              Use for example three Nvidia Titan Rtx GPU
-   #SBATCH --gres=gpu:p2000:1                  Use Nvidia Quadro P2000 GPU
+     #SBATCH --gres=gpu                          Use a generic GPU
+     #SBATCH --gres=gpu:titan_rtx                Use Nvidia Titan Rtx GPU
+     #SBATCH --gres=gpu:titan_rtx:3              Use for example three Nvidia Titan Rtx GPU
+     #SBATCH --gres=gpu:p2000:1                  Use Nvidia Quadro P2000 GPU
 
 
 Singularity Job
