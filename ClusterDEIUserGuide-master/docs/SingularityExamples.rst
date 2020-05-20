@@ -2,7 +2,7 @@ Singularity Examples
 ====================
 
 Find below some examples of singuilarity containers built and run on the 
-CAPRI platform.
+cluster platform.
 
 .. _singexamples:
 
@@ -41,7 +41,7 @@ Singularity file
       Author paoloemilio.mazzon
 
 .. note::
-   The OS of the built singularity is Ubuntu 18.04 (which is different from the CAPRI one)
+   The OS of the built singularity is Ubuntu 18.04 (which is different from the cluster one)
 
 
 Build and run
@@ -53,7 +53,7 @@ On my PC:
 
    sudo singularity build tflow_opencv.sif Singularity
 
-On CAPRI (only the last line of the slurm script is described):
+On cluster (only the last line of the slurm script is described):
 
 ::
 
@@ -92,7 +92,7 @@ Singularity file
    %runscript
 
    %labels
-      Author paoloemilio.mazzon
+      Author agostino.andriolo
 
 Build and run
 """""""""""""
@@ -103,7 +103,7 @@ On my PC:
 
    sudo singularity build deeplearn.sif Singularity
 
-On CAPRI (only the last line of the slurm script is described):
+On cluster (only the last line of the slurm script is described):
 
 ::
 
