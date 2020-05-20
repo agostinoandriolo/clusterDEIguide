@@ -16,7 +16,7 @@ Why singularity?
   * Singularity can import your Docker images without superuser privileges 
     and without Docker installed;
   * Singularity is a good way to share your code;
-  * Configure on your personal PC; run in the CAPRI environment.
+  * Configure on your personal PC; run in the cluster environment.
 
 Singularity workflow
 --------------------
