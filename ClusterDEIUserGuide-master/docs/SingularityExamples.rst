@@ -38,7 +38,7 @@ Singularity file
    %runscript
 
    %labels
-      Author agostino.andriolo
+      Author paoloemilio.mazzon
 
 .. note::
    The OS of the built singularity is Ubuntu 18.04 (which is different from the cluster one)
