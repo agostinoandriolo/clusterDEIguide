@@ -92,8 +92,7 @@ Singularity file
    %runscript
 
    %labels
-      Author agostino.andriolo
-
+      Author paoloemilio.mazzon
 Build and run
 """""""""""""
 
