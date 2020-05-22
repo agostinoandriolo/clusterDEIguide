@@ -67,7 +67,8 @@ The typical job file is something like this:
    #SBATCH --time 02:00
    #SBATCH --mem 1G
    
-   cd $SLURM_SUBMIT_DIR
+   cd $WORKING_DIR   
+   #your working directory
    
    srun <your_software>
    
@@ -85,7 +86,7 @@ This is simply the interpreter of subsequent commands (bash in this case).
 Following the ``#SBATCH`` directive are special options geared at the SLURM
 scheduler. We will see some of them in detail below.
 
-``cd $SLURM_SUBMIT_DIR``
+``cd $WORKING_DIR``
 
 This is a useful command to ask the scheduler to change the current directory
 before launching the program. This way all the paths can be considered as
@@ -149,7 +150,8 @@ A more complete job
   #SBATCH --partition allgroups
   #SBATCH --mem 1G
 
-  cd $SLURM_SUBMIT_DIR
+  cd $WORKING_DIR   
+  #your working directory
 
   srun <your_software>
 
