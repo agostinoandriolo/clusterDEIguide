@@ -305,11 +305,16 @@ execution!) but just above 4 GB were needed...
 .. table:: Other workload manager software
    :name: other workload manager software
 
-   +---------------------+----------+-------------+
-   | User commands       | Slurm    | SGE         |
-   | Job submission      | sbatch   | qsub        |
-   | Job deletion        | scancel  | qdel        |          
-   | Job status (by job) | squeue   | qstat -u\*-j|
-   | Job status (by user)| squeue -u| qstat -u    |
-   | Queue list          | squeue   | qconf -slq  |
-   +---------------------+----------+-------------+
++----------------------+-----------+------------------------+
+| User commands        | Slurm     | SGE                    |
++======================+===========+========================+
+| Job submission       | sbatch    | qsub                   |
++----------------------+-----------+------------------------+
+| Job deletion         | scancel   | qdel                   |
++----------------------+-----------+------------------------+
+| Job status (by job)  | squeue    | qstat -u \*-j          |
++----------------------+-----------+------------------------+
+| Job status (by user) | squeue -u | qstat -u               |
++----------------------+-----------+------------------------+
+| Queue list           | squeue    | qconf -slq             |
++----------------------+-----------+------------------------+
