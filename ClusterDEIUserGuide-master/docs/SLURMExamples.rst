@@ -20,7 +20,8 @@ MPI job
   #SBATCH -p allgroups
   #SBATCH --mem 640G
   
-  cd $SLURM_SUBMIT_DIR
+  cd $WORKING_DIR   
+  #your working directory
   spack load intel-parallel-studio@professional.2019.4
   
   srun ./mphello
@@ -48,7 +49,8 @@ OpenMP job
   #SBATCH -p allgroups
   #SBATCH –mem 640G
   
-  cd $SLURM_SUBMIT_DIR
+  cd $WORKING_DIR   
+  #your working directory
   # set this to what you asked with '-c'
   export OMP_NUM_THREADS=32
   
@@ -78,7 +80,8 @@ GPU Job
   # requesting 1 GPU; set --gres=gpu:2 to use for example two GPUs
   #SBATCH --gres=gpu:1
 
-  cd $SLURM_SUBMIT_DIR
+  cd $WORKING_DIR   
+  #your working directory
   
   srun ./GPUhello
 
@@ -115,7 +118,8 @@ Singularity Job
   #SBATCH --mem=1G
   #SBATCH --time=00:05:00
   
-  cd $SLURM_SUBMIT_DIR
+  cd $WORKING_DIR   
+  #your working directory
   
   srun singularity exec ./mysingularity.sif python script.py
 
@@ -137,7 +141,8 @@ Singularity job using GPU
   # requesting 1 GPU; set --gres=gpu:2 to use both GPUs
   #SBATCH --gres=gpu:1
 
-  cd $SLURM_SUBMIT_DIR
+  cd $WORKING_DIR   
+  #your working directory
   
   srun singularity exec --nv ./tensorflow.sif python script.py
 
