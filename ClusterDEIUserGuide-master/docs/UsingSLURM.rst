@@ -301,3 +301,25 @@ As an example::
 The above job was very good at requesting computing cores. On the opposite side
 40 GB of RAM was requested (and were therefore *reserved* throughout job 
 execution!) but just above 4 GB were needed...
+
+.. table:: Other workload manager software
+   :name: other workload manager software
+
+   +-----------+-----------+-----------+
+   | User commands     | Vivamus   | Phasellus |
+   | ipsum sit | elementum | viverra   |
+   | dolor est | semper    | nulla ut  |
+   | quantu    | nisi      | metus     |
+   | ieres     | aenean    | arius     |
+   | numer     | vusere    | laoreet   |
+   |           |           | quisque   |
+   |           |           | rutrum    |
+   +-----------+-----------+-----------+
+   | Maecenas  | Cursus    | Fusce     |
+   | nec odio  | nunc,     | vulputate |
+   | et ante   | quis      | eleifend  |
+   | tincidunt | gravida   | sapie ves |
+   | tempus    | magna mi  | tibulum   |
+   |           | a libero  | purus     |
+   |           |           | quam      |
+   +-----------+-----------+-----------+
