@@ -302,8 +302,8 @@ The above job was very good at requesting computing cores. On the opposite side
 40 GB of RAM was requested (and were therefore *reserved* throughout job 
 execution!) but just above 4 GB were needed...
 
-.. table:: Other workload manager software
-   :name: other workload manager software
+Slurm vs SGE commands
+^^^^^^^^^^^^^^^^^^^^^
 
 +----------------------+-----------+------------------------+
 | User commands        | Slurm     | SGE                    |
