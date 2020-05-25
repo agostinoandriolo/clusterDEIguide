@@ -125,21 +125,33 @@ GPU Job
 Interactive Job
 ---------------
 
-To run an interactive job using the “interactive” partition, use the command:
-  ::
-    interactive
+ To run an interactive job using the “interactive” partition, use the command:
+ 
+ ::
+  
+  interactive
 
 The interactive command will return an interactive shell to the user. The resources are limited to 1 processor and 1 GB of RAM.
 To obtain an interactive shell using the “interactive” partition, the user can also use the following command (one line command)
 
-::
+ ::
   
-  srun --pty --mem=1g -n 1 -J interactive -p interactive /bin/bash 
+   srun --pty --mem=1g -n 1 -J interactive -p interactive /bin/bash 
+  
+  
+To run an interactive job in a specific node (hostname), use the command (one line command)
+ 
+ ::
+     
+   srun --pty --mem=1g -n 1 -w hostname -J interactive -p interactive /bin/bash 
+  
+  
 
 The interactive shell is active for a maximum of 24 hours.
 
 .. note::
 Interactive jobs should be used ONLY when an real time interaction is needed and/or for tasks having low computation burden. Typical examples are the installation of software having an interactive installation procedure, simple file managing/manipulation (e.g. compressing files), etc.
+
 Do not use the “interactive” partition to run tasks having a long execution time and/or having a high computation burden. These kind of jobs should be executed in the “allgroups” partition.
 The use of the “interactive” partition is monitored: jobs that will use this partition in a wrong way will be killed.
 
@@ -151,11 +163,11 @@ To run an interactive job that use one GPU, use the command (one line command)
      
    srun --pty --mem=1g -n 1 --gres=gpu:1 -J interactive -p interactive /bin/bash 
 
-To run an interactive job that use two GPUs, use the command (one line command)
+To run an interactive job that use for example two specific GPUs, use the command (one line command)
   
 ::
   
-  srun --pty --mem=1g -n 1 --gres=gpu:2 -J interactive -p interactive /bin/bash 
+  srun --pty --mem=1g -n 1 --gres=gpu:titan_rtx:2 -J interactive -p interactive /bin/bash 
 
 .. note::
 If the GPUs are already used by other jobs/users, the previous commands will not work.
