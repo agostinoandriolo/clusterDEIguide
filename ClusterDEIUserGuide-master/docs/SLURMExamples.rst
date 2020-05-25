@@ -131,8 +131,11 @@ To run an interactive job using the “interactive” partition, use the command
 
 The interactive command will return an interactive shell to the user. The resources are limited to 1 processor and 1 GB of RAM.
 To obtain an interactive shell using the “interactive” partition, the user can also use the following command (one line command)
-  ::
-    #srun --pty --mem=1g -n 1 -J interactive -p interactive /bin/bash 
+
+::
+  
+  srun --pty --mem=1g -n 1 -J interactive -p interactive /bin/bash 
+
 The interactive shell is active for a maximum of 24 hours.
 
 .. note::
@@ -144,15 +147,15 @@ The use of the “interactive” partition is monitored: jobs that will use this
 
 To run an interactive job that use one GPU, use the command (one line command)
  
-   ::
+ ::
      
-     srun --pty --mem=1g -n 1 --gres=gpu:1 -J interactive -p interactive /bin/bash 
+   srun --pty --mem=1g -n 1 --gres=gpu:1 -J interactive -p interactive /bin/bash 
 
 To run an interactive job that use two GPUs, use the command (one line command)
   
-  ::
+::
   
-    srun --pty --mem=1g -n 1 --gres=gpu:2 -J interactive -p interactive /bin/bash 
+  srun --pty --mem=1g -n 1 --gres=gpu:2 -J interactive -p interactive /bin/bash 
 
 .. note::
 If the GPUs are already used by other jobs/users, the previous commands will not work.
