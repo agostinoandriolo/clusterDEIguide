@@ -150,9 +150,9 @@ To run an interactive job in a specific node (hostname), use the command (one li
 The interactive shell is active for a maximum of 24 hours.
 
 .. note::
-Interactive jobs should be used ONLY when an real time interaction is needed and/or for tasks having low computation burden. Typical examples are the installation of software having an interactive installation procedure, simple file managing/manipulation (e.g. compressing files), etc.
+         Interactive jobs should be used ONLY when an real time interaction is needed and/or for tasks having low computation                   burden. Typical examples are the installation of software having an interactive installation procedure, simple file managing/manipulation (e.g. compressing files), etc.
 
-Do not use the “interactive” partition to run tasks having a long execution time and/or having a high computation burden. These kind of jobs should be executed in the “allgroups” partition.
+         Do not use the “interactive” partition to run tasks having a long execution time and/or having a high computation burden. These kind of jobs should be executed in the “allgroups” partition.
 The use of the “interactive” partition is monitored: jobs that will use this partition in a wrong way will be killed.
 
 .. _InteractivejobwithGPU:
