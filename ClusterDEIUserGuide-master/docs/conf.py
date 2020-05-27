@@ -47,8 +47,8 @@ master_doc = 'index'
 
 # General information about the project.
 project = u'ClusterDEIUserGuide'
-copyright = u'2020, Agostino Andriolo <agostino.andriolo@unipd.it>'
-author = u'Agostino Andriolo <agostino.andriolo@unipd.it>'
+copyright = u'2020, Sysmen DEI <sysmen@dei.unipd.it>'
+author = u'Sysmen DEI <sysmen@dei.unipd.it>'
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the
