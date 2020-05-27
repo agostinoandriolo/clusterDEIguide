@@ -139,14 +139,14 @@ A more complete job
 
   #!/bin/bash
 
-  #SBATCH --jobname <job_name>
+  #SBATCH --job-name <job_name>
   #SBATCH --output output_%j.txt
   #SBATCH --error errors_%j.txt
   #SBATCH --mail-user james@gmail.com
   #SBATCH --mail-type ALL
   #SBATCH 
   #SBATCH --time 02:00
-  #SBATCH --ntask 4
+  #SBATCH --ntasks 4
   #SBATCH --partition allgroups
   #SBATCH --mem 1G
 
@@ -156,7 +156,7 @@ A more complete job
   srun <your_software>
 
 
--\\-jobname <job_name>
+-\\-job-name <job_name>
   When you queue your job this option can provide a visual clue to distinguish between your jobs.
 
 -\\-output output_%j.txt
