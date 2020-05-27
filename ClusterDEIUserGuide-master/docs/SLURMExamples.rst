@@ -131,7 +131,7 @@ To run an interactive job using the “interactive” partition, use the command
   
  interactive
 
-The interactive command will return an interactive shell to the user. The resources are limited to 1 processor and 1 GB of RAM.
+The interactive command will return an interactive shell to the user. The resources are limited to 1 processor and 3 GB of RAM.
 To obtain an interactive shell using the “interactive” partition, the user can also use the following command (one line command)
 
 ::
