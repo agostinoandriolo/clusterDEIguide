@@ -3,8 +3,18 @@ Overview of the Cluster DEI Platform
 
 .. _overview:
 
-**Cluster DEI** is a computing platform.
+**Cluster DEI** is a computing platform. It consists in many nodes equipped with:
 
+- runner-[01,02,03] CPUs=48 RAM=150GB
+- runner-[04,05,06] CPUs=72 RAM=206GB GPUs=3xNvidia Quadro P1000
+- runner-07 CPUs=12 RAM=125.91GB 
+- runner-08 CPUs=12 RAM=157.85GB
+- runner-13 CPUs=64 RAM=255GB 
+- runner-14 CPUs=64 RAM=255GB 
+- runner-15 CPUs=12 RealMemory=93.65GB  
+- runner-[16,17] CPUs=24 RealMemory=77.54GB 
+- runner-[18-19] CPUs=8 RealMemory=30GB  
+- gpu1 CPUs=24  RAM=1.028TB GPUS=9xNvidia Titan RTX
 
 Access to the computing resources is regulated through the SLURM scheduler.
 
