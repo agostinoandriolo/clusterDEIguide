@@ -47,6 +47,17 @@ installation of software having an interactive installation
 procedure, simple file managing/manipulation (e.g.
 compressing files), etc.
 
+Important things to remember
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+When the user submit a job, he **must** specify in the Slurm options three important things that are:
+- **CPU**, if a user has to run a software that is designed to use more than a CPU he has to specify the number of the CPU that the job has to use, for example **-c, --cpupertask <number_of_cpu>**;
+- **RAM**, this is very important because if a user specify a large amount of RAM that his job doesn't use, he may slow down other users in the queue because resources would be blocked by him until the end of the job;
+- **TIME**, another thing to consider in the submission of a job file, the user has to specify the expected amount of time the job takes to finish, this is very important because:
+-if the user specifies a small amount of time that isn't enough for the job to finish, the job will be killed automatically at the end of the specified time with the results of an unfinished job;
+- if the user specifies a large amount of time that is too much for the job he has submitted, this may result in a block of resources that could be used by other.
+
+
 Slurm Jobs
 ----------
 
@@ -112,6 +123,9 @@ on the cluster platform. These are:
   Number of tasks to launch. For serial code <num_task> should be set to 1, for
   parallel code <num_task> should be set to the
   number of parallel execution flows.
+  
+ -c, -\\-cpupertask <cpu_per_task>
+  Number of CPU used for a single task. For single CPU use <cpu_per_task> should be set to 1, for codes that is capable of using more than a CPU <cpu_per_task> should be set to the number of CPUs required.
 
  -p, -\\-partition <partition_name>
   Slurm partition. For typical serial or parallel job <partition_name> is *allgroups*
