@@ -51,11 +51,13 @@ Important things to remember
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 When the user submit a job, he **must** specify in the Slurm options three important things that are:
-- **CPU**, if a user has to run a software that is designed to use more than a CPU he has to specify the number of the CPU that the job has to use, for example **-c, --cpupertask <number_of_cpu>**;
-- **RAM**, this is very important because if a user specify a large amount of RAM that his job doesn't use, he may slow down other users in the queue because resources would be blocked by him until the end of the job;
-- **TIME**, another thing to consider in the submission of a job file, the user has to specify the expected amount of time the job takes to finish, this is very important because:
--if the user specifies a small amount of time that isn't enough for the job to finish, the job will be killed automatically at the end of the specified time with the results of an unfinished job;
-- if the user specifies a large amount of time that is too much for the job he has submitted, this may result in a block of resources that could be used by other.
+* **CPU**, if a user has to run a software that is designed to use more than a CPU he has to specify the number of the CPU that the job has to use, for example **-c, --cpupertask <number_of_cpu>**;
+* **RAM**, since the requested ram is assigned for the exclusive use of the applicant, it is important to size it correctly for two reasons:
+* 1. if more ram is required than necessary, it is not available to other users;
+* 2. if more ram is required than necessary it may take a long time to have a server with available ram;
+* **TIME**, another thing to consider in the submission of a job file, the user has to specify the expected amount of time the job takes to finish, this is very important because:
+* - if the user specifies a small amount of time that isn't enough for the job to finish, the job will be killed automatically at the end of the specified time with the results of an unfinished job;
+* - if the user specifies a large amount of time that is too much for the job he has submitted, this may result in a block of resources that could be used by other.
 
 
 Slurm Jobs
