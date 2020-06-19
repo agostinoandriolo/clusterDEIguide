@@ -15,7 +15,7 @@ Overview of the Cluster DEI Platform
 - **runner-[16,17]** CPUs = 24, RAM = 78GB 
 - **runner-[18-19]** CPUs = 8, RAM = 30GB  
 - **gpu1** CPUs = 24, RAM = 1TB, GPUs = 9x Nvidia Titan RTX
-- **gpu2**                     , GPUs = 3x Nvidia Titan XP
+- **gpu2**                     , GPUs = 2x Nvidia Titan XP
 
 Access to the computing resources is regulated through the SLURM scheduler.
 
