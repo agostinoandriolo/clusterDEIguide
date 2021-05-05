@@ -52,7 +52,7 @@ Important things to remember
 
 When the user submit a job, he **must** specify in the Slurm options three important things that are:
   
-  * **CPU**, if a user has to run a software that is designed to use more than a CPU he has to specify the number of the CPU that the job has to use;
+  * **CPU** and/or **TASKS**, if a user has to run a software that is designed to use more than a CPU he has to specify the number of the CPU that the job has to use,  using -c, -\\-cpus-per-task <ncpus> and/or -n, -\\-ntasks <num_tasks>;
   * **RAM**, since the requested ram is assigned for the exclusive use of the applicant, it is important to size it correctly for two reasons:
    - if more ram is required than necessary, it is not available to other users;
    - if more ram is required than necessary, it may take a long time to have a server with available ram;
@@ -118,7 +118,7 @@ Slurm (actually *srun*) recognizes a large number of options to suit your needs.
 Some options can be specified using either the short (prefixed with just one dash 
 and a letter) or the long (two dashes) form. 
 
-There are five **mandatory** options you must specify on your job to successfully run
+There are four **mandatory** options you must specify on your job to successfully run
 on the cluster platform. These are:
 
  -n, -\\-ntasks <num_tasks>
@@ -126,8 +126,8 @@ on the cluster platform. These are:
   parallel code <num_task> should be set to the
   number of parallel execution flows.
   
- -c, -\\-cpus-per-task <ncpus>
-  Number of CPU used for a single task. For single CPU use <cpu_per_task> should be set to 1, for codes that is capable of using more than a CPU <cpu_per_task> should be set to the number of CPUs required.
+ (-c, -\\-cpus-per-task <ncpus>
+  Number of CPU used for a single task. For single CPU use <cpu_per_task> should be set to 1, for codes that is capable of using more than a CPU <cpu_per_task> should be set to the number of CPUs required.)
 
  -p, -\\-partition <partition_name>
   Slurm partition. For typical serial or parallel job <partition_name> is *allgroups*
