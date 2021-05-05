@@ -14,7 +14,6 @@ MATLAB job
   #SBATCH -o output_%j.txt
   #SBATCH -e errors_%j.txt
   #SBATCH -t 01:30:00
-  #SBATCH -c 1
   #SBATCH -n 1
   #SBATCH -p allgroups
   #SBATCH –mem 10G
@@ -37,7 +36,6 @@ MPI job
   #SBATCH -e errors_%j.txt
   #SBATCH -t 01:30:00
   # request 32 MPI tasks
-  #SBATCH -c 1
   #SBATCH -n 32
   #SBATCH -p allgroups
   #SBATCH --mem 640G
@@ -64,7 +62,6 @@ OpenMP job
   #SBATCH -o output_%j.txt
   #SBATCH -e errors_%j.txt
   #SBATCH -t 01:30:00
-  #SBATCH -n 1
   # notice we're using the '-c' option
   # to request for OMP threads
   #SBATCH -c 32
@@ -96,7 +93,6 @@ GPU Job
   #SBATCH -o output_%j.txt
   #SBATCH -e errors_%j.txt
   #SBATCH -t 01:30:00
-  #SBATCH -c 1
   #SBATCH -n 1
   #SBATCH -p allgroups
   #SBATCH –mem 640G
@@ -186,7 +182,6 @@ Singularity Job
   #SBATCH --error=opencv.%j.err
   #SBATCH --output=opencv.%j.out
   #SBATCH --partition=allgroups
-  #SBATCH --cpus-per-task=1
   #SBATCH --ntasks=1
   #SBATCH --mem=1G
   #SBATCH --time=00:05:00
@@ -208,7 +203,6 @@ Singularity job using GPU
   #SBATCH -o output_%j.txt
   #SBATCH -e errors_%j.txt
   #SBATCH -t 01:30:00
-  #SBATCH -c 1
   #SBATCH -n 1
   #SBATCH -p allgroups
   #SBATCH –mem 640G
