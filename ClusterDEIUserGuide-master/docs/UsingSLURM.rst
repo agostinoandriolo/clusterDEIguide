@@ -52,7 +52,7 @@ Important things to remember
 
 When the user submit a job, he **must** specify in the Slurm options three important things that are:
   
-  * **CPU**, if a user has to run a software that is designed to use more than a CPU he has to specify the number of the CPU that the job has to use, for example **-c, --cpus-per-task <ncpus>**;
+  * **CPU**, if a user has to run a software that is designed to use more than a CPU he has to specify the number of the CPU that the job has to use;
   * **RAM**, since the requested ram is assigned for the exclusive use of the applicant, it is important to size it correctly for two reasons:
    - if more ram is required than necessary, it is not available to other users;
    - if more ram is required than necessary, it may take a long time to have a server with available ram;
@@ -74,6 +74,7 @@ The typical job file is something like this:
 
    #!/bin/bash
    
+   #SBATCH --cpus-per-task 1
    #SBATCH --ntasks 4
    #SBATCH --partition allgroups
    #SBATCH --time 02:00
@@ -117,7 +118,7 @@ Slurm (actually *srun*) recognizes a large number of options to suit your needs.
 Some options can be specified using either the short (prefixed with just one dash 
 and a letter) or the long (two dashes) form. 
 
-There are four **mandatory** options you must specify on your job to successfully run
+There are five **mandatory** options you must specify on your job to successfully run
 on the cluster platform. These are:
 
  -n, -\\-ntasks <num_tasks>
@@ -159,7 +160,8 @@ A more complete job
   #SBATCH --error errors_%j.txt
   #SBATCH --mail-user james@gmail.com
   #SBATCH --mail-type ALL
-  #SBATCH 
+  #SBATCH
+  #SBATCH --cpus-per-task 1
   #SBATCH --time 02:00
   #SBATCH --ntasks 4
   #SBATCH --partition allgroups
