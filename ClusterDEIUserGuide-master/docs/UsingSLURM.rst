@@ -74,7 +74,6 @@ The typical job file is something like this:
 
    #!/bin/bash
    
-   #SBATCH --cpus-per-task 1
    #SBATCH --ntasks 4
    #SBATCH --partition allgroups
    #SBATCH --time 02:00
@@ -166,7 +165,6 @@ A more complete job
   #SBATCH --mail-user james@gmail.com
   #SBATCH --mail-type ALL
   #SBATCH
-  #SBATCH --cpus-per-task 1
   #SBATCH --time 02:00
   #SBATCH --ntasks 4
   #SBATCH --partition allgroups
