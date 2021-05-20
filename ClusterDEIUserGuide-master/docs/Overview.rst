@@ -8,10 +8,10 @@ Overview of the Cluster DEI Platform
 - **runner-01** CPUs = 48 (4x Intel(R) Xeon(R) Gold 5118 CPU @ 2.30/3.20GHz), RAM = 1.5TB
 - **runner-02** CPUs = 48 (4x Intel(R) Xeon(R) Gold 5118 CPU @ 2.30/3.20GHz), RAM = 1.5TB
 - **runner-03** CPUs = 48 (4x Intel(R) Xeon(R) Gold 5118 CPU @ 2.30/3.20GHz), RAM = 1.5TB
-- **runner-04** CPUs = 72 (4x Intel(R) Xeon(R) Gold 5220 CPU @ 2.20/3.90GHz), RAM = 2TB, GPU = Nvidia Quadro P2000
-- **runner-05** CPUs = 72 (4x Intel(R) Xeon(R) Gold 5220 CPU @ 2.20/3.90GHz), RAM = 2TB, GPU = Nvidia Quadro P2000
-- **runner-06** CPUs = 72 (4x Intel(R) Xeon(R) Gold 5220 CPU @ 2.20/3.90GHz), RAM = 2TB, GPU = Nvidia Quadro P2000
-- **gpu1** CPUs = 24 (2x Intel(R) Xeon(R) Gold 5118 CPU @ 2.30/3.20GHz), RAM = 1TB, GPUs = 6x Nvidia Titan RTX
+- **runner-04** CPUs = 72 (4x Intel(R) Xeon(R) Gold 5220 CPU @ 2.20/3.90GHz), RAM = 2TB,    GPU = Nvidia Quadro P2000
+- **runner-05** CPUs = 72 (4x Intel(R) Xeon(R) Gold 5220 CPU @ 2.20/3.90GHz), RAM = 2TB,    GPU = Nvidia Quadro P2000
+- **runner-06** CPUs = 72 (4x Intel(R) Xeon(R) Gold 5220 CPU @ 2.20/3.90GHz), RAM = 2TB,    GPU = Nvidia Quadro P2000
+- **gpu1** CPUs = 24 (2x Intel(R) Xeon(R) Gold 5118 CPU @ 2.30/3.20GHz), RAM = 1TB,         GPUs = 6x Nvidia Titan RTX
 
 Access to the computing resources is regulated through the SLURM scheduler.
 
