@@ -107,7 +107,7 @@ GPU Job
 .. note::
     In DEI cluster there are currently four servers with GPUs:
 
-    * one server (gpu1) with ten Nvidia Titan Rtx;
+    * one server (gpu1) with 6x Nvidia Titan Rtx;
     * three servers (runner-04/05/06) with one Nvidia Quadro P2000 each.
    
     Request more than one GPU **only** if your program is capable of using more than one GPU at a time.
