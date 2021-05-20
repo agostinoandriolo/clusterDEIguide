@@ -14,9 +14,9 @@ Overview of the Cluster DEI Platform
   GPU = Nvidia Quadro P2000
 - **runner-06** CPUs = 72 (4x Intel(R) Xeon(R) Gold 5220 CPU @ 2.20/3.90GHz), RAM = 2TB, 
   GPU = Nvidia Quadro P2000
-- **runner-07** CPUs = 96 (4x Intel(R) Xeon(R) Gold 6252N CPU @ 2.30/3.60GHz
-- **runner-08** CPUs = 96 (4x Intel(R) Xeon(R) Gold 6252N CPU @ 2.30/3.60GHz
-- **runner-09** CPUs = 96 (4x Intel(R) Xeon(R) Gold 6252N CPU @ 2.30/3.60GHz
+- **runner-07** CPUs = 96 (4x Intel(R) Xeon(R) Gold 6252N CPU @ 2.30/3.60GHz, RAM = 3TB
+- **runner-08** CPUs = 96 (4x Intel(R) Xeon(R) Gold 6252N CPU @ 2.30/3.60GHz, RAM = 3TB
+- **runner-09** CPUs = 96 (4x Intel(R) Xeon(R) Gold 6252N CPU @ 2.30/3.60GHz, RAM = 3TB
 - **gpu1** CPUs = 24 (2x Intel(R) Xeon(R) Gold 5118 CPU @ 2.30/3.20GHz), RAM = 1TB,         
   GPUs = 6x Nvidia Titan RTX
 
