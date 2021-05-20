@@ -5,17 +5,13 @@ Overview of the Cluster DEI Platform
 
 **Cluster DEI** is a computing platform. It consists in many nodes equipped with:
 
-- **runner-[01,02,03]** CPUs = 48, RAM = 1.5TB
-- **runner-[04,05,06]** CPUs = 72, RAM = 2TB, GPUs = Nvidia Quadro P2000
-- **runner-07** CPUs = 12, RAM = 126GB 
-- **runner-08** CPUs = 12, RAM = 158GB
-- **runner-13** CPUs = 64, RAM = 255GB 
-- **runner-14** CPUs = 64, RAM = 255GB 
-- **runner-15** CPUs = 12, RAM = 94GB  
-- **runner-[16,17]** CPUs = 24, RAM = 78GB 
-- **runner-[18-19]** CPUs = 8, RAM = 30GB  
-- **gpu1** CPUs = 24, RAM = 1TB, GPUs = 10x Nvidia Titan RTX
-- **gpu2** CPUs = 12, RAM = 120GB, GPUs = 2x Nvidia Titan XP
+- **runner-01** CPUs = 48 (4x Intel(R) Xeon(R) Gold 5118 CPU @ 2.30/3.20GHz), RAM = 1.5TB
+- **runner-02** CPUs = 48 (4x Intel(R) Xeon(R) Gold 5118 CPU @ 2.30/3.20GHz), RAM = 1.5TB
+- **runner-03** CPUs = 48 (4x Intel(R) Xeon(R) Gold 5118 CPU @ 2.30/3.20GHz), RAM = 1.5TB
+- **runner-04** CPUs = 72 (4x Intel(R) Xeon(R) Gold 5220 CPU @ 2.20/3.90GHz), RAM = 2TB, GPU = Nvidia Quadro P2000
+- **runner-05** CPUs = 72 (4x Intel(R) Xeon(R) Gold 5220 CPU @ 2.20/3.90GHz), RAM = 2TB, GPU = Nvidia Quadro P2000
+- **runner-06** CPUs = 72 (4x Intel(R) Xeon(R) Gold 5220 CPU @ 2.20/3.90GHz), RAM = 2TB, GPU = Nvidia Quadro P2000
+- **gpu1** CPUs = 24 (2x Intel(R) Xeon(R) Gold 5118 CPU @ 2.30/3.20GHz), RAM = 1TB, GPUs = 6x Nvidia Titan RTX
 
 Access to the computing resources is regulated through the SLURM scheduler.
 
