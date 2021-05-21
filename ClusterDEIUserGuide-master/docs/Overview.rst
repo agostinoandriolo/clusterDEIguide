@@ -1,6 +1,8 @@
 Overview of the Cluster DEI Platform
 ==============================
+.. |br| raw:: html
 
+     <br>
 .. _overview: 
 
 **Cluster DEI** is a computing platform. It consists in many nodes equipped with:
@@ -8,11 +10,11 @@ Overview of the Cluster DEI Platform
 - **runner-01** CPUs = 48 (4x Intel(R) Xeon(R) Gold 5118 CPU @ 2.30/3.20GHz), RAM = 1.5TB
 - **runner-02** CPUs = 48 (4x Intel(R) Xeon(R) Gold 5118 CPU @ 2.30/3.20GHz), RAM = 1.5TB
 - **runner-03** CPUs = 48 (4x Intel(R) Xeon(R) Gold 5118 CPU @ 2.30/3.20GHz), RAM = 1.5TB
-- **runner-04** CPUs = 72 (4x Intel(R) Xeon(R) Gold 5220 CPU @ 2.20/3.90GHz), RAM = 2TB,|br|    
+- **runner-04** CPUs = 72 (4x Intel(R) Xeon(R) Gold 5220 CPU @ 2.20/3.90GHz), RAM = 2TB, |br|    
   GPU = Nvidia Quadro P2000
-- **runner-05** CPUs = 72 (4x Intel(R) Xeon(R) Gold 5220 CPU @ 2.20/3.90GHz), RAM = 2TB,|br|   
+- **runner-05** CPUs = 72 (4x Intel(R) Xeon(R) Gold 5220 CPU @ 2.20/3.90GHz), RAM = 2TB, |br|   
   GPU = Nvidia Quadro P2000
-- **runner-06** CPUs = 72 (4x Intel(R) Xeon(R) Gold 5220 CPU @ 2.20/3.90GHz), RAM = 2TB,|br| 
+- **runner-06** CPUs = 72 (4x Intel(R) Xeon(R) Gold 5220 CPU @ 2.20/3.90GHz), RAM = 2TB, |br| 
   GPU = Nvidia Quadro P2000
 - **runner-07** CPUs = 96 (4x Intel(R) Xeon(R) Gold 6252N CPU @ 2.30/3.60GHz, RAM = 3TB
 - **runner-08** CPUs = 96 (4x Intel(R) Xeon(R) Gold 6252N CPU @ 2.30/3.60GHz, RAM = 3TB
