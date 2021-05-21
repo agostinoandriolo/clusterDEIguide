@@ -19,7 +19,7 @@ Overview of the Cluster DEI Platform
 - **runner-07** CPUs = 96 (4x Intel(R) Xeon(R) Gold 6252N CPU @ 2.30/3.60GHz, RAM = 3TB
 - **runner-08** CPUs = 96 (4x Intel(R) Xeon(R) Gold 6252N CPU @ 2.30/3.60GHz, RAM = 3TB
 - **runner-09** CPUs = 96 (4x Intel(R) Xeon(R) Gold 6252N CPU @ 2.30/3.60GHz, RAM = 3TB
-- **gpu1** CPUs = 24 (2x Intel(R) Xeon(R) Gold 5118 CPU @ 2.30/3.20GHz), RAM = 1TB,         
+- **gpu1** CPUs = 24 (2x Intel(R) Xeon(R) Gold 5118 CPU @ 2.30/3.20GHz), RAM = 1TB, |br|        
   GPUs = 6x Nvidia Titan RTX
 
 Access to the computing resources is regulated through the SLURM scheduler.
