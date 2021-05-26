@@ -48,7 +48,7 @@ MPI job
 
 .. note::
    ``spack load ...`` initializes the Intel MPI environment and
-   is equivalent to ``module load intel-parallel-studio-professional.2019.4-gcc-8.2.1-fnvratt (work in progress)``
+   is equivalent to ``module load intel-parallel-studio-professional.2019.4-gcc-8.2.1-fnvratt`` (work in progress)
 
 OpenMP job
 ----------
