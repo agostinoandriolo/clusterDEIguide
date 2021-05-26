@@ -42,13 +42,13 @@ MPI job
   
   cd $WORKING_DIR   
   #your working directory
-  spack load intel-parallel-studio@professional.2019.4
+  #spack load intel-parallel-studio@professional.2019.4 (work in progress)
   
   srun ./mphello
 
 .. note::
    ``spack load ...`` initializes the Intel MPI environment and
-   is equivalent to ``module load intel-parallel-studio-professional.2019.4-gcc-8.2.1-fnvratt``
+   is equivalent to ``module load intel-parallel-studio-professional.2019.4-gcc-8.2.1-fnvratt (work in progress)``
 
 OpenMP job
 ----------
