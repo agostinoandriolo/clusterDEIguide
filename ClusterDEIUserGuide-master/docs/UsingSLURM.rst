@@ -58,6 +58,10 @@ When the user submit a job, he **must** specify in the Slurm options three impor
    - if more ram is required than necessary, it may take a long time to have a server with available ram;
   * **TIME**, another thing to consider in the submission of a job file is the expected amount of time the job takes to finish. This is very important because if the user specifies a small amount of time that isn't enough for the job to finish, the job will be killed automatically at the end of the specified time with the results of an unfinished job;
 
+.. ATTENTION::
+  In submitting a job, the time limit set is a maximum of 35 days. In particular cases, if one or more jobs require more execution time, a ticket @HelpdeskDEI must be opened to report the request.
+
+
 
 Slurm Jobs
 ----------
