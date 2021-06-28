@@ -107,9 +107,10 @@ GPU Job
 .. note::
     In DEI cluster there are currently four servers with GPUs:
 
-    * one server (gpu1) with 6x Nvidia Titan Rtx;
-    * three servers (runner-04/05/06) with one Nvidia Quadro P2000 each.
-   
+    * one server (gpu1) with 6x Nvidia Titan Rtx each;
+    * three servers (runner-04/05/06) with one Nvidia Quadro P2000 each;
+    * two server (gpu2,gpu3) with 8x Nvidia Rtx3090 each. 
+    
     Request more than one GPU **only** if your program is capable of using more than one GPU at a time.
 
 .. important::
@@ -117,8 +118,8 @@ GPU Job
    To specify a GPU you want to use:
    ::
      #SBATCH --gres=gpu                          Use a generic GPU
-     #SBATCH --gres=gpu:titan_rtx                Use Nvidia Titan Rtx GPU
-     #SBATCH --gres=gpu:titan_rtx:3              Use for example three Nvidia Titan Rtx GPU
+     #SBATCH --gres=gpu:rtx                      Use Nvidia Titan Rtx GPU or Nvidia RTX 3090 GPU
+     #SBATCH --gres=gpu:rtx:3                    Use for example three Nvidia Titan Rtx GPU
      #SBATCH --gres=gpu:p2000:1                  Use Nvidia Quadro P2000 GPU
 
 Interactive Job
