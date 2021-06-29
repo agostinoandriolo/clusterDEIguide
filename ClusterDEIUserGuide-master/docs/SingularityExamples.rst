@@ -13,7 +13,7 @@ Description
 """""""""""
 
 One of the projects required a `tensorflow <https://www.tensorflow.org/>`_ installation plus some other 
-softwares for computer vision. Instead of installing everithing system-wide
+softwares for computer vision. Instead of installing everything system-wide
 a singularity file was built by customizing a docker image.
 
 Singularity file
