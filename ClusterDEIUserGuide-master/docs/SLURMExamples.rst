@@ -16,7 +16,7 @@ MATLAB job
   #SBATCH -t 01:30:00
   #SBATCH -n 1
   #SBATCH -p allgroups
-  #SBATCH –mem 10G
+  #SBATCH --mem 10G
 
   cd $WORKING_DIR   
   #your working directory
