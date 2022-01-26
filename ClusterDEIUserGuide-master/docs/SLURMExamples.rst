@@ -66,7 +66,7 @@ OpenMP job
   # to request for OMP threads
   #SBATCH -c 32
   #SBATCH -p allgroups
-  #SBATCH –mem 640G
+  #SBATCH -–mem 640G
   
   cd $WORKING_DIR   
   #your working directory
@@ -95,7 +95,7 @@ GPU Job
   #SBATCH -t 01:30:00
   #SBATCH -n 1
   #SBATCH -p allgroups
-  #SBATCH –mem 640G
+  #SBATCH –-mem 640G
   # requesting 1 GPU; set --gres=gpu:2 to use for example two GPUs
   #SBATCH --gres=gpu:1
 
@@ -207,7 +207,7 @@ Singularity job using GPU
   #SBATCH -t 01:30:00
   #SBATCH -n 1
   #SBATCH -p allgroups
-  #SBATCH –mem 640G
+  #SBATCH –-mem 640G
   # requesting 1 GPU; set --gres=gpu:2 to use both GPUs
   #SBATCH --gres=gpu:1
 
