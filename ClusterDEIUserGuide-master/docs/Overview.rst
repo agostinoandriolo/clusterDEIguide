@@ -20,7 +20,7 @@ Overview of the Cluster DEI Platform
 
 Access to the computing resources is regulated through the SLURM scheduler.
 
-In order to submit a job to the cluster, connect via ssh at login.dei.unipd.it using DEI credentials. 
+**In order to submit a job to the cluster, connect via ssh at login.dei.unipd.it using DEI credentials.**
 
 The system is equipped with some *system* software managed by the administrators. The software 
 catalog can be extended by:
