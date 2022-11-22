@@ -16,6 +16,8 @@ Cluster DEI User Guide
    TroubleshootingSLURM
    UsingSingularity
    SingularityExamples
+   FAQ
+   
 
 
 .. AccessThePlatform
