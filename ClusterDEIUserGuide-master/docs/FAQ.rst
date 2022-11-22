@@ -1,3 +1,10 @@
+Frequently Asked Questions
+==============================
+.. |br| raw:: html
+
+     <br>
+
+
 **Where can I write my temporary data?**
 
 The nodes of the cluster have a scratch directory (/ext). This is writable by everyone and is the ONLY place to save temporary files.
