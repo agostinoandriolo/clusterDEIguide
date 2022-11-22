@@ -59,7 +59,7 @@ When the user submit a job, he **must** specify in the Slurm options three impor
   * **TIME**, another thing to consider in the submission of a job file is the expected amount of time the job takes to finish. This is very important because if the user specifies a small amount of time that isn't enough for the job to finish, the job will be killed automatically at the end of the specified time with the results of an unfinished job;
 
 .. ATTENTION::
-  In the submission of a job, the time limit set is a maximum of 35 days. In particular cases, if one or more jobs require more execution time, a ticket @`DEI Helpdesk System <https://www.dei.unipd.it/helpdesk/>`_ must be opened to report the request.
+  In the submission of a job, the time limit set is a maximum of 35 days. In particular cases, if one or more jobs require more execution time, a ticket @DEI Helpdesk System https://www.dei.unipd.it/helpdesk/ must be opened to report the request.
 
 
 
