@@ -1,4 +1,4 @@
-8. Frequently Asked Questions
+Frequently Asked Questions
 ==============================
 .. |br| raw:: html
 
