@@ -35,10 +35,8 @@ A specific machine can be excluded using the --exclude option. Assuming that the
 
 In this regard there are two possibilities.
 
-Solution 1:
-connect to login.dei.unipd.it via ssh enabling X11 forwarding (with the -X option), then open an interactive graphical session on the cluster with the "sinteractive" command and launch matlab. Continue with the graphical interface.
-Solution 2:
-open an interactive session on the cluster with the "interactive" command and launch matlab textually. Then run the following commands replacing the example path with that of the downloaded file:
+     1. connect to login.dei.unipd.it via ssh enabling X11 forwarding (with the -X option), then open an interactive graphical session on the cluster with the "sinteractive" command and launch matlab. Continue with the graphical interface.
+     2. open an interactive session on the cluster with the "interactive" command and launch matlab textually. Then run the following commands replacing the example path with that of the downloaded file:
 toolboxFile = 'C:\Downloads\My toolbox.mltbx';
 agreeToLicense = true;
 matlab.addons.install(toolboxFile,agreeToLicense)
