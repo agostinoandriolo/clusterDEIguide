@@ -53,6 +53,7 @@ You can then experiment with an interactive job by connecting with ssh to login.
 **How can I install persistently missing packages on Apptainer (also known as Singularity)?**
 
 There are two ways to achieve this:
+
     1. you create a personal Apptainer image complete with everything you need and work on it. Bear in mind that it could take up several GB of space;
     2. a Python virtual environment (Python virtualenv) is created in the personal space and the various installations are made inside it, perhaps with the pip install command. With the command source it will then be possible to recall the /bin/activate of the environment.
     
