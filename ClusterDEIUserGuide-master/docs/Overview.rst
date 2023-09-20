@@ -15,7 +15,8 @@ Overview of the Cluster DEI Platform
   six Nvidia Titan RTX GPUs
 - **gpu[2-3]** Two nodes with 32 CPUs (2x Intel(R) Xeon(R) Gold 5218 CPU @ 2.30/3.90GHz), 1.5TB RAM, |br|        
   eight Nvidia RTX 3090 GPUs
-  
+- **gpu4** 32 CPUs (2x Intel(R) Xeon(R) Gold 5218 CPU @ 2.30/3.90GHz), 1.5TB RAM, |br|        
+  five Nvidia RTX 3090 GPUs  
   
 
 Access to the computing resources is regulated through the SLURM scheduler.
