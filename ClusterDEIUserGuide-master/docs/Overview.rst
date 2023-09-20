@@ -8,15 +8,11 @@ Overview of the Cluster DEI Platform
 **Cluster DEI** is a computing platform. It consists in many nodes equipped with:
 
 - **runner-[01-03]** Three nodes with 48 CPUs (4x Intel(R) Xeon(R) Gold 5118 CPU @ 2.30/3.20GHz), 1.5TB RAM 
-- **runner-[04-06]** Three nodes with 72 CPUs (4x Intel(R) Xeon(R) Gold 5220 CPU @ 2.20/3.90GHz), 2TB RAM, |br|    
-  one Nvidia Quadro P2000 GPU
+- **runner-[04-06]** Three nodes with 72 CPUs (4x Intel(R) Xeon(R) Gold 5220 CPU @ 2.20/3.90GHz), 2TB RAM,one Nvidia Quadro P2000 GPU
 - **runner-[07-09]** Three nodes with 96 CPUs (4x Intel(R) Xeon(R) Gold 6252N CPU @ 2.30/3.60GHz, 3TB RAM
-- **gpu1** 24 CPUs (2x Intel(R) Xeon(R) Gold 5118 CPU @ 2.30/3.20GHz), 1TB RAM, |br|        
-  six Nvidia Titan RTX GPUs
-- **gpu[2-3]** Two nodes with 32 CPUs (2x Intel(R) Xeon(R) Gold 5218 CPU @ 2.30/3.90GHz), 1.5TB RAM, |br|        
-  eight Nvidia RTX 3090 GPUs
-- **gpu4** 32 CPUs (2x Intel(R) Xeon(R) Gold 5218 CPU @ 2.30/3.90GHz), 1.5TB RAM, |br|        
-  five Nvidia RTX 3090 GPUs  
+- **gpu1** 24 CPUs (2x Intel(R) Xeon(R) Gold 5118 CPU @ 2.30/3.20GHz), 1TB RAM, six Nvidia Titan RTX GPUs
+- **gpu[2-3]** Two nodes with 32 CPUs (2x Intel(R) Xeon(R) Gold 5218 CPU @ 2.30/3.90GHz), 1.5TB RAM, eight Nvidia RTX 3090 GPUs
+- **gpu4** 32 CPUs (2x Intel(R) Xeon(R) Gold 5218 CPU @ 2.30/3.90GHz), 1.5TB RAM, five Nvidia RTX 3090 GPUs  
   
 
 Access to the computing resources is regulated through the SLURM scheduler.
