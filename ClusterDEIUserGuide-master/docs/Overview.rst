@@ -9,7 +9,8 @@ Overview of the Cluster DEI Platform
 
 - **runner-[01-03]** Three nodes with 48 CPUs (4x Intel(R) Xeon(R) Gold 5118 CPU @ 2.30/3.20GHz), 1.5TB RAM 
 - **runner-[04-06]** Three nodes with 72 CPUs (4x Intel(R) Xeon(R) Gold 5220 CPU @ 2.20/3.90GHz), 2TB RAM,one Nvidia Quadro P2000 GPU
-- **runner-[07-09]** Three nodes with 96 CPUs (4x Intel(R) Xeon(R) Gold 6252N CPU @ 2.30/3.60GHz, 3TB RAM
+- **runner-[07-10]** Four nodes with 96 CPUs (4x Intel(R) Xeon(R) Gold 6252N CPU @ 2.30/3.60GHz, 3TB RAM
+- **runner-11** 192 CPUs (8x Intel(R) Xeon(R) Platinum 8260 CPU @ 2.40/3.90GHz, 6TB RAM
 - **gpu1** 24 CPUs (2x Intel(R) Xeon(R) Gold 5118 CPU @ 2.30/3.20GHz), 1TB RAM, six Nvidia Titan RTX GPUs
 - **gpu[2-3]** Two nodes with 32 CPUs (2x Intel(R) Xeon(R) Gold 5218 CPU @ 2.30/3.90GHz), 1.5TB RAM, eight Nvidia RTX 3090 GPUs
 - **gpu4** 32 CPUs (2x Intel(R) Xeon(R) Gold 5218 CPU @ 2.30/3.90GHz), 1.5TB RAM, five Nvidia RTX 3090 GPUs  
