@@ -180,20 +180,20 @@ A more complete job
   srun <your_software>
 
 
--\\-job-name <job_name>
+- -job-name <job_name>
   When you queue your job this option can provide a visual clue to distinguish between your jobs.
 
--\\-output output_%j.txt
+- -output output_%j.txt
   Your output file will be numbered with your JOBID (%j). Subsequent runs will not overwrite the output file.
 
--\\-error errors_%j.txt
+- -error errors_%j.txt
   Same as above for standard error.
 
--\\-mail-user james@gmail.com
+- -mail-user james@gmail.com
   Depending on what you specify on the companion directive ``mail-type`` the specified user will be
   notified via email.
 
--\\-mail-type ALL 
+- -mail-type ALL 
   Notify user by email when certain event types occur. The event list can be seen on the *srun* manual page 
   on the frontend node (issuing a ``man srun`` at the command prompt).
 
