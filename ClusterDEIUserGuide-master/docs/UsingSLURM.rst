@@ -124,17 +124,17 @@ and a letter) or the long (two dashes) form.
 There are four **mandatory** options you must specify on your job to successfully run
 on the cluster platform. These are:
 
- -n, -\\-ntasks <num_tasks>
+ -n, - -ntasks <num_tasks>
   Number of tasks to launch. For serial code <num_task> should be set to 1, for
   parallel code <num_task> should be set to the
   number of parallel execution flows.
   
 
 
- -p, -\\-partition <partition_name>
+ -p, - -partition <partition_name>
   Slurm partition. For typical serial or parallel job <partition_name> is *allgroups*
 
- -t, -\\-time <time>
+ -t, - -time <time>
   Maximum job execution time, where time could be specified as one of
 
   * mm
@@ -145,11 +145,11 @@ on the cluster platform. These are:
   * dd-hh:mm:ss
 
 
- -\\-mem <size[units]>
+ - -mem <size[units]>
   Maximum amount of RAM memory requested. Different units can be specified using the suffix [K|M|G|T]
  
 .. note::
-  -c, -\\-cpus-per-task <ncpus>
+  -c, - -cpus-per-task <ncpus>
    Number of CPU used for a single task. For single CPU use <cpu_per_task> should be set to 1, for codes that is capable of using more than a CPU <cpu_per_task> should be set to the number of CPUs required.
   
   
