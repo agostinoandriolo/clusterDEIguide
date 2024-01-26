@@ -217,4 +217,4 @@ Singularity job using GPU
   srun singularity exec --nv ./tensorflow.sif python script.py
 
 .. important::
-   You must request (at least) one GPU and **you must pass the ----nv** flag to singularity
+   You must request (at least) one GPU and **you must pass the /-/-nv** flag to singularity
