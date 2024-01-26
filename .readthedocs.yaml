@@ -6,8 +6,8 @@ build:
     python: "3.12"
 
 sphinx:
-  configuration: docs/conf.py
+  configuration: ClusterDEIUserGuide-master/docs/conf.py
 
 python:
   install:
-    - requirements: docs/requirements.txt
+    - requirements: ClusterDEIUserGuide-master/docs/requirements.txt
